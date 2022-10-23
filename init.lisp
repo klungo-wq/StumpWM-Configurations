@@ -21,5 +21,4 @@
 (load "~/.stumpwm.d/groups.lisp")
 (load "~/.stumpwm.d/mode-line.lisp")
 
-;;; Hello
 
