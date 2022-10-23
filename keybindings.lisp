@@ -6,6 +6,8 @@
 (define-key *top-map* (kbd "M-Return") "exec st")
 (define-key *root-map* (kbd "s") "exec spotify")
 (define-key *root-map* (kbd "t") "exec thunar")
+(define-key *root-map* (kbd "F2") "exec blueberry")
+(define-key *root-map* (kbd "F1") "exec st -e htop")
 
 ;; Frames manipulation
 (define-key *top-map* (kbd "M-v") "vsplit")
