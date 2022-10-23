@@ -1,0 +1,12 @@
+(in-package :stumpwm)
+
+(stumpwm:set-focus-color "#8fad2d")
+(stumpwm:grename "One")
+(stumpwm:gnewbg "Two")
+(stumpwm:gnewbg "Three")
+(stumpwm:gnewbg "Four")
+(stumpwm:gnewbg "Five")
+(stumpwm:gnewbg "Six")
+(stumpwm:gnewbg "Seven")
+(stumpwm:gnewbg "Eight")
+(stumpwm:gnewbg "Nine")
