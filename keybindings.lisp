@@ -8,7 +8,7 @@
 (define-key *root-map* (kbd "t") "exec thunar")
 (define-key *root-map* (kbd "F2") "exec blueberry")
 (define-key *root-map* (kbd "F1") "exec st -e htop")
-(define-key *roop-map* (kbd "F3") "exec pavucontrol")
+(define-key *root-map* (kbd "F3") "exec pavucontrol")
 
 ;; Frames manipulation
 (define-key *top-map* (kbd "M-v") "vsplit")
