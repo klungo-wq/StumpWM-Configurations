@@ -42,4 +42,4 @@
 (define-key *top-map* (kbd "s-F11") "exec amixer sset Master 5%+")
 
 ;; Kill windows
-(define-key *top-map* (kbd "M-q") "kill")
+(define-key *top-map* (kbd "M-q") "delete")
