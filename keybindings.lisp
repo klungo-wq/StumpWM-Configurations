@@ -31,6 +31,12 @@
 (define-key *top-map* (kbd "s-8") "gselect 8")
 (define-key *top-map* (kbd "s-9") "gselect 9")
 
+;; Window Navigation
+(define-key *root-map* (kbd "TAB") "pull-from-windowlist")
+(define-key *top-map* (kbd "M-TAB") "fnext")
+(define-key *root-map* (kbd "r") "iresize")
+(define-key *root-map* (kbd "RET") "expose")
+
 ;; Move windows to another group
 (define-key *top-map* (kbd "s-m") "gmove")
 

@@ -3,17 +3,24 @@
 ;;; Autostart
 (run-shell-command "sh ~/.scripts/setbg")
 (run-shell-command "picom")
+(run-shell-command "xsetroot -cursor_name left_ptr")
 
 ;;; Prefix key - Alt + Space
 (set-prefix-key (kbd "M-space"))
 
-;;; Messages are in the middle of the screen
-(setq *message-window-gravity* :center)
+;; Stumpwm values
 
-;; Stumpwm values 
+(setf *startup-message* NIL
+      *mouse-focus-policy* :sloppy
+      *window-border-style* :thin
+      *normal-border-width* 2
+      *maxsize-border-width* 2
+      *transient-border-width* 2
+      *message-window-gravity* :center
+      *input-window-gravity* :top-left
+      *message-window-padding* 3)
 
-(setf *startup-message* NIL )  
-(setf *mouse-focus-policy* :sloppy )
+
 
 ;;; Loading other config files
 
