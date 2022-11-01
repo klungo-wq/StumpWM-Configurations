@@ -38,14 +38,14 @@
 (define-key *root-map* (kbd "RET") "expose")
 
 ;; Move windows to another group
-(define-key *top-map* (kbd "s-m") "gmove")
+(define-key *top-map* (kbd "M-m") "gmove")
 
 ;; Show programs in every workspaces
-(define-key *top-map* (kbd "s-0") "vgroups")
+(define-key *top-map* (kbd "M-0") "vgroups")
 
 ;; Volume control 
-(define-key *top-map* (kbd "s-F10") "exec amixer sset Master 5%-")
-(define-key *top-map* (kbd "s-F11") "exec amixer sset Master 5%+")
+(define-key *top-map* (kbd "M-F10") "exec amixer sset Master 5%-")
+(define-key *top-map* (kbd "M-F11") "exec amixer sset Master 5%+")
 
 ;; Kill windows
 (define-key *top-map* (kbd "M-q") "delete")
