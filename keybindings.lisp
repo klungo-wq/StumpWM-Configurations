@@ -49,3 +49,6 @@
 
 ;; Kill windows
 (define-key *top-map* (kbd "M-q") "delete")
+
+;; Exec
+(define-key *top-map* (kbd "M-p") "exec")
