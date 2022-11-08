@@ -11,6 +11,6 @@
  *mode-line-border-width* 0
  *time-modeline-string* "%d-%m-%Y %H:%M"
  *screen-mode-line-format*
- (list "[%n]" "^>[%d]"))
+ (list "[%n]" "^>[%d ]"))
 
 (stumpwm:toggle-mode-line (stumpwm:current-screen) (stumpwm:current-head))
